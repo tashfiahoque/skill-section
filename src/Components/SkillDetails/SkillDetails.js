@@ -1,5 +1,5 @@
 import React from 'react';
-import hello from '../../images/hello.png';
+import './SkillDetails.css';
 
 const SkillDetails = ({ skill }) => {
     return (
