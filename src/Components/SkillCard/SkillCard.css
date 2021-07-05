@@ -1,0 +1,39 @@
+.skill-card{
+    cursor: pointer;
+}
+.skill-container h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-container{
+    position: relative;
+    border: 1px solid #999999;
+    border-radius: 10px;
+  
+}
+.skill-container:hover{
+    background-color: #FFFFFF;
+}
+.skill-container:hover h6{
+    color: #000000;
+}
+.active{
+    background-color: red;
+}
+.special h6{
+    color: #000000;
+}
+.special{
+    background-color: #FFFFFF;
+}
+.special::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 10px);
+    background: #FFFFFF;
+    width: 20px;
+    height: 12px;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
