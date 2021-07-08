@@ -1,0 +1,17 @@
+.details-content{
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+}
+#skill-details h3{
+    color: #2C2C2C;
+}
+#skill-details p{
+    text-align: justify;
+    color: #797A7C;
+    line-height: 30px;
+}
+.details-bg{
+    position: absolute;
+}
+

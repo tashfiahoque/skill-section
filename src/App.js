@@ -12,11 +12,9 @@ function App() {
     <>
       <Router>
         <Switch>
-
           <Route exact path="/">
             <Skill />
           </Route>
-
         </Switch>
       </Router>
     </>

@@ -1,5 +1,73 @@
 #skill{
-    background: linear-gradient(to bottom right, #454545, #444444); 
+    background: rgb(41,41,41);
+    background: linear-gradient(150deg, rgb(41,41,41) 0%, rgba(63,63,63) 100%);
     border-radius: 10px;
     min-height: 500px;
+}
+.resume-btn{
+    margin-left: 150px;
+    border: none;
+    outline: none;
+    padding: 20px 70px 20px 20px;
+    border-radius: 45px;
+    position: relative;
+    overflow: hidden;
+}
+.resume-btn a{
+    color: #2C2C2C !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+button:hover a{
+    color: #fff !important;
+    text-decoration: underline !important;
+    text-decoration-color: #fff !important; 
+}
+button::before{
+    content: "";
+    height: 160%;
+    width: 40px;
+    background: rgba(255,255,255,.3);
+    position: absolute;
+    top: -20px;
+    transform: translateX(-80px);
+    transition: all .5s;
+}
+button:hover::before{
+    transform: translateX(230px);
+}
+.btn-arrow{
+    position: absolute;
+    top: 187px;
+    right: 233px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+.long-arrow-right{
+  display: block;
+  position: absolute;
+  top: 202px;
+  right: 243px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.long-arrow-right{
+ transform: rotate(135deg);
+}
+.long-arrow-right::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 17px;
+  background-color: black;
+  transform: rotate(-45deg) translate(5px, 2px);
+  left: 0;
+  top: 0;
+}
+canvas{
+    height: 400px !important;
 }

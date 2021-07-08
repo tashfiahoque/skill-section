@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import skills from './fakeData1';
 import SkillCard from '../SkillCard/SkillCard';
 import SkillDetails from '../SkillDetails/SkillDetails';
-import './Skill.css'
+import './Skill.css';
+
 
 const Skill = () => {
     const [toggleState, setToggleState] = useState(1);
@@ -24,12 +25,29 @@ const Skill = () => {
 
     return (
         <>
-            <section id="skill" className="m-5 d-flex justify-content-center">
-                <div className="container p-5">
-                    <div className="row text-center skill-header">
-                        <h3 className="skill-title">Moving skill</h3>
-                        <h4 className="text-uppercase skill-description">How it works</h4>
-                        <div className="row mt-5 skill-details">
+            <section id="skill" className="m-3 d-flex justify-content-center">
+                <div className="container">
+                    <div className="row skill-header p-5">
+                        <ul className="mt-5 ms-5">
+                            <li className="skill-title text-warning text-uppercase fs-2">
+                                <h5>How do you know about my different skills?</h5>
+                            </li>
+                        </ul>
+                        <div className="row justify-content-between">
+                            <div className="col-4">
+                                <h3 className="text-white skill-description ms-4 fs-3 fw-bold">Check Out My Skills</h3>
+                            </div>
+                            <div className="col-4 offset-4">
+                                <button className="btn btn-warning resume-btn fw-700">
+                                    <a href="https://drive.google.com/file/d/1rsdjRvMcLzpI2dJen-YRSZIWsIKcVTRa/view?usp=sharing"
+                                        target="_blank" rel="noopener noreferrer">Contact me</a></button>
+                                <div className="btn-arrow"></div>
+                                <div className="long-arrow-right"></div>
+                            </div>
+
+                        </div>
+
+                        <div className="row skill-details mt-2 p-5">
                             {
                                 skills.map(skill => <SkillCard
                                     key={skill.id}
@@ -42,9 +60,11 @@ const Skill = () => {
                     </div>
                 </div>
             </section>
-            {
-                filteredSkillByIcon.map(skill => <SkillDetails skill={skill} key={skill.id} />)
-            }
+            <section id="skill-details">
+                {
+                    filteredSkillByIcon.map(skill => <SkillDetails skill={skill} key={skill.id} />)
+                }
+            </section>
         </>
     );
 };

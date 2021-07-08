@@ -16,10 +16,10 @@ const Skillcard = ({ skill, toggleState, toggleTab, setDescriptionByIcon }) => {
                 }}>
                 <div className={toggleState === skill.id ? 'text-center skill-container p-4 special'
                     : 'text-center skill-container p-4'}>
-                    {skill.title === "mongo" ? <Icon icon={skill.icon} color="green" width="4em" height="4em" /> :
+                    {skill.title === "mongo" ? <Icon className="skill-icon" icon={skill.icon} color="green" width="3em" height="3em" /> :
                         <FontAwesomeIcon className="skill-icon" icon={skill.icon}
-                            color={skill.color} size="4x"></FontAwesomeIcon>}
-                    <h6 className="pt-3 text-uppercase">{skill.title}</h6>
+                            color={skill.color} size="3x"></FontAwesomeIcon>}
+                    <h6 className="mt-4 text-uppercase">{skill.title}</h6>
                 </div>
             </div>
         </>

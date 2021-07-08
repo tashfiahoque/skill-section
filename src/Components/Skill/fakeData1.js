@@ -33,7 +33,7 @@ const skills = [
         url1: "https://tashfiahoque.github.io/pin-matcher-Assignment/",
         avatar2: "https://i.ibb.co/FzQ8RTr/tashfiahoque-github-io-assignment5-on-cooking-master.png",
         url2: "https://tashfiahoque.github.io/assignment5-on-cooking-master/",
-        description: "JavaScript, often abbreviated as JS, is a programming language that conforms to th ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. Some of projects demo are in the right side."
+        description: "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. Some of projects demo are in the right side."
     },
     {
         id: 4,

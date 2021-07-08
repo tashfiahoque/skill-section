@@ -6,23 +6,24 @@
     font-size: 20px;
     font-weight: 700;
 }
-.skill-container{
-    position: relative;
+.skill-container, .img-wrap{
     border: 1px solid #999999;
     border-radius: 10px;
-  
+  position: relative;
 }
 .skill-container:hover{
     background-color: #FFFFFF;
 }
 .skill-container:hover h6{
     color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #ffc107;  
 }
-.active{
-    background-color: red;
+.skill-container:hover .skill-icon{ 
+    box-shadow: 0px 15px 18px -7px #94949C;
 }
 .special h6{
-    color: #000000;
+    color: #2C2C2C;
 }
 .special{
     background-color: #FFFFFF;
@@ -36,4 +37,7 @@
     width: 20px;
     height: 12px;
     clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.special .skill-icon{
+    box-shadow: 0px 15px 18px -7px #94949C;
 }
