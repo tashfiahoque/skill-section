@@ -1,6 +1,7 @@
 .details-content{
-    margin-top: 100px;
+    margin-top: 80px;
     position: absolute;
+    top: 536px;
     z-index: 1;
 }
 #skill-details h3{
@@ -12,6 +13,6 @@
     line-height: 30px;
 }
 .details-bg{
-    position: absolute;
+    position: relative;
 }
 

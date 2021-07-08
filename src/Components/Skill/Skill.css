@@ -12,13 +12,13 @@
     border-radius: 45px;
     position: relative;
     overflow: hidden;
+    font-weight: 700;
 }
 .resume-btn a{
     color: #2C2C2C !important;
     text-decoration: none !important;
-    font-weight: bold;
 }
-button:hover a{
+a:hover button{
     color: #fff !important;
     text-decoration: underline !important;
     text-decoration-color: #fff !important; 

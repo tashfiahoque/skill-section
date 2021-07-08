@@ -6,10 +6,10 @@
     font-size: 20px;
     font-weight: 700;
 }
-.skill-container, .img-wrap{
+.skill-container{
     border: 1px solid #999999;
     border-radius: 10px;
-  position: relative;
+    position: relative;
 }
 .skill-container:hover{
     background-color: #FFFFFF;

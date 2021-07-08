@@ -38,9 +38,8 @@ const Skill = () => {
                                 <h3 className="text-white skill-description ms-4 fs-3 fw-bold">Check Out My Skills</h3>
                             </div>
                             <div className="col-4 offset-4">
-                                <button className="btn btn-warning resume-btn fw-700">
-                                    <a href="https://drive.google.com/file/d/1rsdjRvMcLzpI2dJen-YRSZIWsIKcVTRa/view?usp=sharing"
-                                        target="_blank" rel="noopener noreferrer">Contact me</a></button>
+                                <a href="https://drive.google.com/file/d/1rsdjRvMcLzpI2dJen-YRSZIWsIKcVTRa/view?usp=sharing"
+                                    target="_blank" rel="noopener noreferrer"><button className="btn btn-warning resume-btn">Contact me</button></a>
                                 <div className="btn-arrow"></div>
                                 <div className="long-arrow-right"></div>
                             </div>
